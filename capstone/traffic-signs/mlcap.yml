@@ -1,0 +1,30 @@
+name: mlcap
+channels: !!python/tuple
+- defaults
+- !!python/unicode
+  'menpo'
+- !!python/unicode
+  'conda-forge'
+dependencies:
+- numpy=1.11.3=py27_0
+- openssl=1.0.2k=0
+- pip=9.0.1=py27_1
+- python=2.7.12=1
+- ipython=5.1.0=py27_1
+- ipython-notebook=4.0.4=py27_0
+- ipython-qtconsole=4.0.1=py27_0
+- ipython_genutils=0.1.0=py27_0
+- readline=6.2=2
+- scikit-learn=0.18.1=np111py27_1
+- scipy=0.18.1=np111py27_1
+- pandas=0.19.2=np111py27_1
+- matplotlib=2.0.0=np111py27_0
+- pickleshare=0.7.4=py27_0
+- setuptools=27.2.0=py27_0
+- wheel=0.29.0=py27_0
+- zlib=1.2.8=3
+- pillow=4.0.0=py27_0
+- opencv3=3.1.0=py27_0
+- protobuf=3.1.0=py27_0
+- tensorflow=0.12.1=py27_1
+

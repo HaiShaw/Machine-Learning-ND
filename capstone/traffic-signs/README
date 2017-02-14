@@ -1,0 +1,34 @@
+README
+
+Files Included (all in one directory from extraction):
+
+  Main Submissions:
+  - proposal.pdf
+  - project_report.pdf
+  - README (this file)
+  - Traffic_Sign_Classifier.ipynb (main IPython Notebook file)
+  - Traffic_Sign_Classifier.html (Ipython Notebook exported HTML)
+
+  Dataset:
+  - t?.pkl, test.pkl (German Traffic Sign dataset from Udacity,
+                           repickled to protocol version 2 for Python 2.7)
+  - cat t1.pkl t2.pkl t3.pkl > train.pkl
+  - signnames.csv (mapping table of GTS classId to classNames)
+  - *.png (5 custom traffic sign images to try on final model)
+
+  Software, library and environment setup:
+  - Python 2.7
+  - Tensorflow 0.12.1 (CPU / Mac OSX)
+  - OpenCV3 3.1.0
+  - scikit-learn 0.18.1, etc.
+  - mlcap.yml (anaconda environment configuration for this project)
+
+    to replicate capstone project environment, run:
+
+      conda env create -f mlcap.yml
+
+    switch to capstone project environment, run:
+
+      source activate mlcap
+
+Total files: 16
