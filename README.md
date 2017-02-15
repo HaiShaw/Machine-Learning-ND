@@ -27,3 +27,20 @@ In this project I apply unsupervised learning techniques on product spending dat
 ### Project: Train a Smartcab to Drive
 #### Description:
 In this project I apply reinforcement learning techniques for a self-driving agent in a simplified world to aid it in effectively reaching its destinations in the allotted time. I first investigate the environment the agent operates in by constructing a very basic driving implementation. Once my agent is successful at operating within the environment, I then identify each possible state the agent can be in when considering such things as traffic lights and oncoming traffic at each intersection. With states identified, I then implement a Q-Learning algorithm for the self-driving agent to guide the agent towards its destination within the allotted time. Finally, I improve upon the Q-Learning algorithm to find the best configuration of learning and exploration factors to ensure the self-driving agent is reaching its destinations with consistently positive results.
+
+
+## Capstone
+
+### Projects: Use Deep Neural Networks and TensorFlow to Build Traffic Signs Classifier
+#### Description:
+In the autonomous car industry, computer vision and deep learning have many important use cases to both provide accurate scene or context understanding to driving safety and intelligent augmentation or automation to the vehicle control, examples range from lane lines recognition & tracking, pedestrian classification, vehicle detection and tracking or traffic sign classification, etc.
+With applications in demand and rapid evolving of GPU, image processing method, architecture, and algorithm deep learning infrastructure software have made great advancement in the recent years, popular ones including Caffe, Torch, Keras, Theano and TensorFlow.
+In this project, I use TensorFlow to develop traffic signs image classifiers in addition to traditional machine learning libraries such as sklearn, using Python 2.7
+
+
+### Projects: Navigate Robotic Agent in a Virtual Maze
+#### Description:
+Robot Motion Planning is a typical AI problem to autonomous agents, according to wikipedia it is also known as the navigation problem in robotics for the process of breaking down a relocation or reconfiguration task into discrete motions that satisfy environment constraints and possibly optimize some aspect of the movement. It ranges from a pure robotic control (e.g. robotic arm) to both learning and control (e.g. exploration and searching, SLAM), in both known and unknown environments, continuous and discrete space, or deterministic and stochastic controls.
+This project takes inspiration from MMicromouse competitions. The maze solving problem is one of the most popular ones in the field of robotics. In fact IEEE designed a Micromouse competition dating back to the 70s, it gains popularity all over the world, and the problem itself has become one of the most accessible challenges in robotics teaching, experiment and even research.
+Different than to build a real robotic mouse navigating a real maze as people do in the competition, in this project I will come up with an efficient policy or model for a virtual intelligent agent (robotic mouse) to explore, discover and plot (follow determined) paths from a corner of the maze to its target at the maze center.
+
